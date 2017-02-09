@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Thu Feb 09 14:12:18 CET 2017 -->
+
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="pageA4" page-height="29.7cm" page-width="21cm" margin-top="2cm">
+			<fo:region-body margin="1cm" margin-right="1.5cm" margin-left="1.5cm"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+
+	<fo:page-sequence master-reference="pageA4">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block-container>
+			<fo:block text-align="center" font-weight="bold" background-color="blue" color="white" font-size="40" border-bottom="2px solid red">My-Planif</fo:block>
+			</fo:block-container>
+			<fo:block-container margin-top="2cm" margin-left="25px" width="80%" text-align="center" font-size="35" font-weight="bold" color="black">
+			<fo:block border-bottom="1.5px solid black">Cahier des charges</fo:block>
+			</fo:block-container>
+			<fo:block-container text-align="left" color="black" font-size="20" font-weight="bold" margin-top="1cm">
+			<fo:block margin-right="190px" border-bottom="0.5px solid black">définition du périmètre du projet:</fo:block>
+			<fo:list-block margin-left="1cm" margin-top="1cm">
+				<fo:list-item margin-top="1cm">
+					<fo:list-item-label><fo:block>•</fo:block></fo:list-item-label>
+					<fo:list-item-body><fo:block margin-left="0.5cm">description détaillé des objectifs:</fo:block>
+					<fo:list-block margin-top="0.5cm" margin-left="1cm">
+						<fo:list-item margin-top="0.5cm">
+						<fo:list-item-label><fo:block>-</fo:block></fo:list-item-label>
+						<fo:list-item-body margin-left="0.5cm"><fo:block>Permettre à une entreprise tertiaire qui demande une réservation de la part d’un client de créer un ou plusieurs emplois du temps afin de gérer et d’optimiser chacun de ces services.</fo:block></fo:list-item-body>
+						</fo:list-item>
+						<fo:list-item margin-top="0.5cm">
+						<fo:list-item-label><fo:block>-</fo:block></fo:list-item-label>
+						<fo:list-item-body margin-left="0.5cm"><fo:block>Permettre aux employés de l’entreprise qui doivent s’occuper d’un client d’avoir accès librement à leurs emplois du temps et être avertis en temps réel par sms de la modification de celui-ci.</fo:block></fo:list-item-body>
+						</fo:list-item>
+						<fo:list-item margin-top="0.5cm">
+						<fo:list-item-label><fo:block>-</fo:block></fo:list-item-label>
+						<fo:list-item-body margin-left="0.5cm"><fo:block>Permettre aux client d’être avertis en temps réel de toute modification de son/sa rendez-vous/réservation.</fo:block></fo:list-item-body>
+						</fo:list-item>
+					</fo:list-block>
+					</fo:list-item-body>
+				</fo:list-item>
+				<fo:list-item margin-top="1cm">
+					<fo:list-item-label><fo:block>•</fo:block></fo:list-item-label>
+					<fo:list-item-body margin-left="0.5cm"><fo:block>description des différentes fonctionnalités du projet:</fo:block>
+					<fo:list-block margin-top="0.5cm" margin-left="1cm">
+						<fo:list-item margin-top="0.5cm">
+						<fo:list-item-label><fo:block>-</fo:block></fo:list-item-label>
+						<fo:list-item-body margin-left="0.5cm"><fo:block>Créations d'une base de donnée intelligente qui s'adapte à n'importe quelle entreprise.</fo:block></fo:list-item-body>
+						</fo:list-item>
+						<fo:list-item margin-top="0.5cm">
+						<fo:list-item-label><fo:block>-</fo:block></fo:list-item-label>
+						<fo:list-item-body margin-left="0.5cm"><fo:block>Création d'un algorithme qui previens les employés et les clients de toutes les modifications</fo:block></fo:list-item-body>
+						</fo:list-item>
+						<fo:list-item margin-top="0.5cm">
+						<fo:list-item-label><fo:block>-</fo:block></fo:list-item-label>
+						<fo:list-item-body margin-left="0.5cm"><fo:block>Création d'emploi du temps intelligent parfaitement adapté à l'entreprise grâce à la base à donné.</fo:block></fo:list-item-body>
+						</fo:list-item>
+					</fo:list-block>
+					</fo:list-item-body>
+				</fo:list-item>
+				<fo:list-item margin-top="1cm">
+					<fo:list-item-label><fo:block>•</fo:block></fo:list-item-label>
+					<fo:list-item-body margin-left="0.5cm"><fo:block>description des entrées / sorties pour chaque fonctionnalité:</fo:block></fo:list-item-body>
+				</fo:list-item>
+				<fo:list-item margin-top="1cm">
+					<fo:list-item-label><fo:block>•</fo:block></fo:list-item-label>
+					<fo:list-item-body margin-left="0.5cm"><fo:block>définition d’un planning personnel:</fo:block></fo:list-item-body>
+				</fo:list-item>
+			</fo:list-block>
+			</fo:block-container>
+		</fo:flow>
+  	</fo:page-sequence>
+
+</fo:root>
