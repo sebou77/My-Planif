@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Dim 12 Mars 2017 à 22:10
+-- Généré le :  Mar 14 Mars 2017 à 10:59
 -- Version du serveur :  5.7.14
 -- Version de PHP :  5.6.25
 
@@ -76,7 +76,6 @@ CREATE TABLE `infrastructure` (
   `pwd` varchar(65) NOT NULL,
   `Horaire` varchar(65) NOT NULL,
   `Semaine` varchar(65) NOT NULL,
-  `TempsReserver` int(11) NOT NULL,
   `idEntreprise` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -104,6 +103,19 @@ CREATE TABLE `plagehoraire` (
   `Fin` datetime NOT NULL,
   `Avertis` tinyint(1) NOT NULL,
   `idPlage` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `reservation`
+--
+
+CREATE TABLE `reservation` (
+  `idReservation` bigint(20) UNSIGNED NOT NULL,
+  `nom` varchar(65) NOT NULL,
+  `tempsReservation` varchar(65) NOT NULL,
+  `idInfrastructure` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -166,6 +178,13 @@ ALTER TABLE `plagehoraire`
   ADD UNIQUE KEY `idPlageHoraire` (`idPlageHoraire`);
 
 --
+-- Index pour la table `reservation`
+--
+ALTER TABLE `reservation`
+  ADD PRIMARY KEY (`idReservation`),
+  ADD UNIQUE KEY `idReservation` (`idReservation`);
+
+--
 -- AUTO_INCREMENT pour les tables exportées
 --
 
@@ -199,6 +218,11 @@ ALTER TABLE `plage`
 --
 ALTER TABLE `plagehoraire`
   MODIFY `idPlageHoraire` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT pour la table `reservation`
+--
+ALTER TABLE `reservation`
+  MODIFY `idReservation` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
