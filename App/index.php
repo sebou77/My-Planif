@@ -6,12 +6,10 @@
 		<script src='.\assets\js\functions.js'></script>
 	</head>
 	<body>
-		<button onclick="getAccueil()">Accueil</button>
-		<button onclick="getRegisterClient()">Inscription</button>
-		<button onclick="getRegisterFirm()">Supprimer</button>
 		<div id="template">
 		</div>
 		<script type="text/javascript" src=".\assets\js\templateSwitch.js" ></script>	
+		<script>getAccueil()</script>
 	</body>
 
 </html>
