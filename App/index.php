@@ -7,8 +7,8 @@
 	</head>
 	<body>
 		<button onclick="getAccueil()">Accueil</button>
-		<button onclick="accueil()">Inscription</button>
-		<button onclick="accueil()">Supprimer</button>
+		<button onclick="getRegisterClient()">Inscription</button>
+		<button onclick="getRegisterFirm()">Supprimer</button>
 		<div id="template">
 		</div>
 		<script type="text/javascript" src=".\assets\js\templateSwitch.js" ></script>	
