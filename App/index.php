@@ -6,12 +6,13 @@
 		<script src='.\assets\js\functions.js'></script>
 	</head>
 	<body>
-		<button onclick="retourAccueilInfra()">aller a infrastructure</button>
-		<button onclick="retourAccueilClient()">aller a client</button>
+		<button onclick="getPage('Infrastructure','Accueil_Infrastructure')">aller a infrastructure</button>
+		<button onclick="getPage('Entreprise','Accueil_Entreprise')">aller a entreprise</button>
+		<button onclick="getPage('Client','Accueil_Client')">aller a client</button>
 		<div id="template">
 		</div>
 		<script type="text/javascript" src=".\assets\js\templateSwitch.js" ></script>	
-		<script>getAccueil()</script>
+		<script>getPage('Accueil','Accueil')</script>
 	</body>
 
 </html>
