@@ -1,11 +1,11 @@
 
 		<h1>Inscription Client</h1>
-		<form action="">
-			<input onclick="getPage('Accueil','Accueil')" type="submit" value="retour"/>
-			Nom: <input type="text" /> 
+		<form action="" id="myForm">
+			<input onclick="getPage('Accueil','Accueil_App')" type="submit" value="retour"/>
+			Nom: <input type="text"  id="nom"/>
 			prenom: <input type="text" />       
 			Email:<input type=“email" /> 
 			Pseudo: <input type="text" /> 
 			Mot de passe: <input type="text" />          
-			<input type="submit" value="S'inscrire"/>
+			<input onclick="RegisterClient()" type="submit" value="S'inscrire"/>
 		</form>
