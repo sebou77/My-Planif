@@ -1,0 +1,53 @@
+<?php
+	class ModeleConnexion extends ModeleGenerique{
+			public function Connexion($mdp,$pseudo){
+				$conn = parent::getPDO();
+			   	$res=$conn->prepare("SELECT * FROM Utilisateur where pseudo=?");
+				$res->execute(array($pseudo));
+				$data = $res->fetch();
+                		if(password_verify($mdp, $data['mdp']) && $data['pseudo']==$pseudo) {
+				//conn possible
+					$_SESSION['id']=$data['id_utilisateur'];
+					$_SESSION['survivant']= self::Survivant();
+					$_SESSION['survivant']= self::Survivant();
+					$_SESSION['id_Perso']=self::idPerso();
+					$_SESSION['Position']=self::Position();
+					$res1=$conn->prepare("Select pseudo,PA,A_Bu_,A_Manger_,Id_Ville from Personnage where id_utilisateur=?");
+					$res1->execute(array($_SESSION['id']));
+					$res1=$res1->fetchAll();
+					$_SESSION['infosPerso']= $res1;
+				}
+				else{
+				//probleme (mauvais info rentrées)
+					echo "WOW ERREUR WOW <p> ERREUR </p>";
+					}
+				}
+
+			function Survivant(){
+				$sql = self::$connexion->prepare("SELECT Personnage.id_personnage FROM Personnage INNER JOIN Connection where Personnage.id_personnage=Connection.id_Personnage and Connection.id_utilisateur=?");
+				$sql -> execute (array($_SESSION['id']));
+				$result = $sql->fetchAll(PDO::FETCH_ASSOC);
+				$sql = self::$connexion->prepare("SELECT id_Ville FROM Personnage where id_personnage=?");
+				$sql -> execute (array($result[0]['id_personnage']));
+				$result = $sql->fetchAll(PDO::FETCH_ASSOC);
+				if(isset($result[0]['id_Ville'])){
+					$_SESSION['id_ville']=$result[0]['id_Ville'];
+				}
+				return isset($result[0]['id_Ville']);
+			}
+			
+			function idPerso(){
+				$sql = self::$connexion->prepare("SELECT Personnage.id_personnage FROM Personnage INNER JOIN Connection USING(id_personnage) where Connection.id_utilisateur=?");
+				$sql -> execute (array($_SESSION['id']));
+				$result = $sql->fetchAll(PDO::FETCH_ASSOC);
+				return $result[0]['id_personnage'];
+			}
+			
+			function Position(){
+				$sql = self::$connexion->prepare("SELECT PosX,PosY FROM Personnage where id_personnage=?");
+				$sql -> execute (array($_SESSION['id_Perso']));
+				$result = $sql->fetchAll(PDO::FETCH_ASSOC);
+				return $result;
+			}
+	}
+?>

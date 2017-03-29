@@ -10,7 +10,7 @@
 		<button onclick="getPage('Infrastructure','Accueil_Infrastructure')">aller a infrastructure</button>
 		<button onclick="getPage('Entreprise','Accueil_Entreprise')">aller a entreprise</button>
 		<button onclick="getPage('Client','Accueil_Client')">aller a client</button>
-		<button onclick="getRegister()">voir les inscrits</button>
+		<button onclick="RegisterClient2()">inscrire un client</button>
 		<button onclick="gettest()">test</button>
 		<div id="template">
 		</div>
