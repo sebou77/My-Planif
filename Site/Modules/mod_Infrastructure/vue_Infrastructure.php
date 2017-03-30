@@ -10,7 +10,7 @@
 			function CreateConsultation(){
 				$this->titre="Créer Consultation";
 				echo '
-			<h1>Création d\'une infrastructure</h1>
+			<h1>Création d\'une consultation</h1>
 			<button><a href="index.php?action=Connexion">Retour</a></button>
 			<form method="post" action="index.php?action=CreerConsultation">
 				Nom: <input type="text" name="nom"/> 
@@ -19,6 +19,20 @@
 			</form>
 				';
 			}
+
+        function CreateAbsence(){
+            $this->titre="Créer Absence";
+            echo '
+			<h1>Création d\'une absence</h1>
+			<button><a href="index.php?action=Connexion">Retour</a></button>
+			<form method="post" action="index.php?action=CreerAbsence">
+				Début:<input type="date" name="debut"/>
+				Fin:<input type="date" name="fin"/>
+				Raison: <input type="text" name="nom"/> 
+				<input type="submit" value="Creer"/> 
+			</form>
+				';
+        }
 
 			function getTitre(){
 				return $this->titre;			

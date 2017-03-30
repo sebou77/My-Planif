@@ -39,7 +39,7 @@
                     <h1>Accueil Infrastructure</h1>
                     <button><a href="index.php?action=Deconnexion">Deconnexion</a></button>
 					<h2> Menu: </h2>
-					<button>S\'abscenter</button>
+					<button><a href="index.php?action=CreerAbsence">S\'abscenter</a></button>
 					<button>Consulter les reservations</button>
 					<button><a href="index.php?action=CreerConsultation">Créer une Consultation</a></button>
 					';
