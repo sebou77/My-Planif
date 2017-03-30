@@ -1,0 +1,133 @@
+.a{
+	text-decoration:none;
+}
+
+.div{
+	margin:10%;
+}
+.AccueilCentralise{
+
+}
+#pseudoAccueil{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+#mdpAccueil{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+.InscriptionClient{
+
+}
+
+#nomClient{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+#prenomClient{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+#emailClient{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+#mdpClient{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+.InscriptionEntreprise{
+
+}
+
+#nomEntreprise{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+#pseudoEntreprise{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+#mdpEntreprise{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+.AccueilClient{
+
+}
+
+.ModifierClient{
+
+}
+
+.ReservationClient{
+
+}
+
+.ReserverClient{
+
+}
+
+.SupprimerClient{
+
+}
+
+.AccueilEntreprise{
+
+}
+
+.CreationInfra{
+
+}
+
+.ModifInfrara{
+
+}
+
+#nomInfra{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+#PseudoInfra{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+#mdpInfra{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+.SelectionInfra{
+
+}
+
+.SupprInfra{
+
+}
+
+#NomEntr{
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+.Abscence{
+
+}
+
+.AccueilInfra{
+
+}
+
+.ConsulterReservation{
+
+}
