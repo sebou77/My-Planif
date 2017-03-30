@@ -6,7 +6,6 @@
 				$query=$conn->prepare("INSERT INTO `utilisateur` (`psd`, `mdp`, `categorie`) VALUES (?,?,?);");
 				$query= $query->execute(array($nom,$mdp,'client'));
 				if($query){
-					var_dump($query);
 					$query = $conn->prepare("SELECT idUtilisateur FROM `utilisateur` ORDER BY idUtilisateur DESC LIMIT 1;");
 					$query->execute();
 					$id = $query->fetch();
@@ -30,7 +29,6 @@
             $query = $conn->prepare("SELECT idUtilisateur FROM `utilisateur` ORDER BY idUtilisateur DESC LIMIT 1;");
             $query->execute();
             $id = $query->fetch();
-            var_dump($id[0]);
             $query=$conn->prepare("INSERT INTO `entreprise` (`nom`, `prevision`,`idUtilisateur`) VALUES (?,?,?);");
             $query = $query->execute(array($pseudo,null,$id[0]));
             if($query){

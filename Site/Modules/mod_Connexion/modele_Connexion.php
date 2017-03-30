@@ -2,10 +2,10 @@
 	class ModeleConnexion extends ModeleGenerique{
 			public function Connexion($mdp,$pseudo){
 				$conn = parent::getPDO();
-			   	$res=$conn->prepare("SELECT * FROM `utilisateur` where pseudo=?");
+			   	$res=$conn->prepare("SELECT * FROM `utilisateur` where psd=?");
 				$res->execute(array($pseudo));
 				$data = $res->fetch();
-				if(password_verify($mdp, $data['mdp']) && $data['pseudo']==$pseudo) {
+				if(password_verify($mdp, $data['mdp']) && $data['psd']==$pseudo) {
 				//conn possible
 					$_SESSION["idUtilisateur"]=$data['idUtilisateur'];
 					return $data['categorie'];

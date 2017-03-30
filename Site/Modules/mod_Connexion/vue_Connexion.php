@@ -7,20 +7,44 @@
 			
 			}
 
-			function affiche($jeton){
-				$this->titre = "Connexion";
-				echo '
-			<!-- Home -->
-			<div class="wrapper style1 first">
-				<form method="POST" action="index.php?action=Connexion" >
-					<label>pseudo : <input type="text" name="pseudoConn" value=""/></label><br/>
-					<label>mot de passe : <input type="password" name="mdpConn" value=""/></label><br/>
-					<input type="hidden" name="jeton" value="'.$jeton.'"/>
-					<input type="submit" value="Connexion"/>
+			function affiche($categorie){
+				if($categorie=='client'){
+					$this->titre = "Accueil Client";
+                    echo '
+					<!-- Home -->
+					<div class="client">
+						<h1>Accueil client</h1>
+						<h2> Menu: </h2>
+						<button><a href="index.php?action=Deconnexion">Deconnexion</a></button>
+						<form>      
+							<input type="submit" value="Réserver" onclick="getPage(\'Client\',\'Reserver_Client\')"/>
+							<input type="submit" value="Modifier" onclick="getPage(\'Client\',\'Modifier_Client\')"/>
+							<input type="submit" value="Supprimer" onclick="getPage(\'Client\',\'Supprimer_Client\')"/>
+						</form>
+					</div>';
+				}else {
+                    $this->titre = "Accueil Entreprise";
+                    echo '
+					<h1>Personnalisation de votre emploi du temps</h1>
+					<h2>Infrastructure</h2>
+					<button><a href="index.php?action=Deconnexion">Deconnexion</a></button>
+					<form action="">
+						<input type="submit" value="Creer" onclick="getPage(\'Entreprise\',\'Creation_Infrastructure\')"/>
+						<input type="submit" value="Modifier" onclick="getPage(\'Entreprise\',\'Selection_Infrastructure\')"/>
+						<input type="submit" value="Supprimer" onclick="getPage(\'Entreprise\',\'Supprimer_Infrastructure\')"/>
 					</form>
-
-
-			</div>';
+					<h2>Prévision:</h2>
+					<form action="">
+                        Nom Entreprise: <input type="text" />
+					</form>
+					<form action="">
+					<select> 
+						<option> Option1</option>
+						<option> Option2</option>
+						<option> Option3</option>
+					</select>
+					</form>';
+                }
 		
 			}
 			
@@ -37,7 +61,6 @@
 
 			}
 			function getTitre(){
-				$this->titre = "Connexion";
 				return $this->titre;			
 			}
 			function getContenu(){

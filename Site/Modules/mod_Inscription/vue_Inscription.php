@@ -12,10 +12,10 @@
 				$this->titre = "Inscription Client";
 				echo '
 			<!-- Home -->
-			<div>
+			<div class="Inscription">
 			<h1>Inscription Client</h1>
+			<button><a href="index.php?action=Accueil"/>Retour</a></button><br/>
 			<form method="POST" class="myForm" action="index.php?action=Inscription&categorie=client">
-				<button><a href="index.php?action=Accueil"/>Retour</a></button><br/>
 				Nom: <input type="text"  name="nom"/><br/>
 				prenom: <input type="text" name="prenom"/><br/>
 				Email:<input type="email" name="email"/><br/>
@@ -34,11 +34,12 @@
 			<!-- Home -->
 			<div>
 			<h1>Inscription Entreprise</h1>
+			<button><a href="index.php?action=Accueil">Retour</a></button><br/>
 			<form method="POST" class="myForm" action="index.php?action=Inscription&categorie=entreprise">
-				<button><a href="index.php?action=Accueil">Retour</a></button><br/>
 				Nom Entreprise: <input type="text" name="nom"/><br/>
 				pseudo: <input type="text" name="pseudo"/><br/>
 				Mot de passe: <input type="password" name="mdp"/><br/>
+				<input type="hidden" name="jeton" value="'.$jeton.'"/>
 				<input type="submit" value="S\'inscrire"/>
 			</form>
 			</div>';

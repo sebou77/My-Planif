@@ -9,15 +9,16 @@
 
         }
 
-        function affiche()
+        function affiche($jeton)
         {
             $this->titre = "Accueil";
             echo '
 				<h1>Accueil</h1>
 				<h2> Connexion: </h2>
-				<form>
-					pseudo: <input type="text" id="pseudo"/>
-					Mot de passe:<input type="text" id="mdp"/>
+				<form method="POST" action="index.php?action=Connexion">
+					pseudo: <input type="text" name="pseudo"/>
+					Mot de passe:<input type="password" name="mdp"/>
+					<input type="hidden" name="jeton" value="'.$jeton.'"/>
 					<input type="submit" value="envoyé"/>
 				</form>
 				<h2>Inscription</h2>
