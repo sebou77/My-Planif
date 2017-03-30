@@ -15,36 +15,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="252">
+              <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controleur_Entreprise.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/mod_Entreprise/controleur_Entreprise.php">
+      <file leaf-file-name="controleur_Infrastructure.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/mod_Infrastructure/controleur_Infrastructure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="70" lean-forward="false" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+            <state relative-caret-position="102">
+              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_Connexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/vue_Connexion.php">
+      <file leaf-file-name="modele_Infrastructure.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/mod_Infrastructure/modele_Infrastructure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" column="63" lean-forward="false" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+            <state relative-caret-position="170">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding>
-                <marker date="1490870298005" expanded="true" signature="332:801" ph="..." />
-                <marker date="1490870298005" expanded="true" signature="476:789" ph="..." />
-                <marker date="1490870298005" expanded="true" signature="1072:1335" ph="..." />
-                <marker date="1490870298005" expanded="true" signature="1465:1509" ph="..." />
+                <marker date="1490879836983" expanded="true" signature="183:250" ph="SELECT idInf... infrastructure" />
+                <marker date="1490879836983" expanded="true" signature="555:643" ph="INSERT INTO `reservation`... " />
               </folding>
             </state>
           </provider>
@@ -53,7 +51,7 @@
       <file leaf-file-name="modele_Entreprise.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/mod_Entreprise/modele_Entreprise.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="210">
               <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
               <folding>
                 <marker date="1490873724031" expanded="true" signature="552:620" ph="INSERT INTO `utilisateur`... " />
@@ -68,47 +66,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modele_Connexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/modele_Connexion.php">
+      <file leaf-file-name="vue_Connexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/vue_Connexion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="286">
+              <caret line="43" column="71" lean-forward="false" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
               <folding>
-                <marker date="1490876051344" expanded="true" signature="156:195" ph="SELECT * FRO... utilisateur" />
-                <marker date="1490876051344" expanded="true" signature="696:753" ph="SELECT categ... utilisateur" />
+                <marker date="1490879260905" expanded="true" signature="332:801" ph="..." />
+                <marker date="1490879260905" expanded="true" signature="476:789" ph="..." />
+                <marker date="1490879260905" expanded="true" signature="1101:1364" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vue_Entreprise.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/mod_Entreprise/vue_Entreprise.php">
+      <file leaf-file-name="vue_Infrastructure.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/mod_Infrastructure/vue_Infrastructure.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+            <state relative-caret-position="272">
+              <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
               <folding>
-                <marker date="1490876289381" expanded="true" signature="429:1609" ph="..." />
-                <marker date="1490876289381" expanded="true" signature="516:628" ph="..." />
-                <marker date="1490876289381" expanded="true" signature="958:1241" ph="..." />
-                <marker date="1490876289381" expanded="true" signature="1273:1556" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modele_Inscription.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/mod_Inscription/modele_Inscription.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="20" selection-end-column="17" />
-              <folding>
-                <marker date="1490863104836" expanded="true" signature="221:289" ph="INSERT INTO `utilisateur`... " />
-                <marker date="1490863104836" expanded="true" signature="396:471" ph="SELECT idUti... utilisateur" />
-                <marker date="1490863104836" expanded="true" signature="556:639" ph="INSERT INTO `client`... " />
-                <marker date="1490863104836" expanded="true" signature="1188:1227" ph="INSERT INTO `utilisateur`... " />
-                <marker date="1490863104836" expanded="true" signature="1188:1256" ph="INSERT INTO `utilisateur`... " />
-                <marker date="1490863104836" expanded="true" signature="1382:1457" ph="SELECT idUti... utilisateur" />
-                <marker date="1490863104836" expanded="true" signature="1563:1639" ph="INSERT INTO `entreprise`... " />
+                <marker date="1490879513735" expanded="true" signature="427:573" ph="..." />
               </folding>
             </state>
           </provider>
@@ -152,14 +130,18 @@
         <option value="$PROJECT_DIR$/Modules/mod_Inscription/vue_Inscription.php" />
         <option value="$PROJECT_DIR$/Modules/mod_Inscription/modele_Inscription.php" />
         <option value="$PROJECT_DIR$/templates/Entreprise/Creation_Infrastructure.html" />
-        <option value="$PROJECT_DIR$/Modules/mod_Connexion/vue_Connexion.php" />
         <option value="$PROJECT_DIR$/Modules/mod_Entreprise/mod_Entreprise.php" />
         <option value="$PROJECT_DIR$/Modules/mod_Entreprise/controleur_Entreprise.php" />
         <option value="$PROJECT_DIR$/Modules/mod_Entreprise/modele_Entreprise.php" />
         <option value="$PROJECT_DIR$/Modules/mod_Connexion/modele_Connexion.php" />
         <option value="$PROJECT_DIR$/Modules/mod_Connexion/controleur_Connexion.php" />
         <option value="$PROJECT_DIR$/Modules/mod_Entreprise/vue_Entreprise.php" />
+        <option value="$PROJECT_DIR$/Modules/mod_Infrastructure/controleur_Infrastructure.php" />
+        <option value="$PROJECT_DIR$/Modules/mod_Infrastructure/mod_Infrastructure.php" />
+        <option value="$PROJECT_DIR$/Modules/mod_Connexion/vue_Connexion.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Modules/mod_Infrastructure/vue_Infrastructure.php" />
+        <option value="$PROJECT_DIR$/Modules/mod_Infrastructure/modele_Infrastructure.php" />
       </list>
     </option>
   </component>
@@ -214,6 +196,38 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Infrastructure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -233,6 +247,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mod_Inscription" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_Infrastructure" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,12 +401,12 @@
       <updated>1490687459019</updated>
       <workItem from="1490687461472" duration="12027000" />
       <workItem from="1490772822389" duration="2081000" />
-      <workItem from="1490857072293" duration="15211000" />
+      <workItem from="1490857072293" duration="18936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29319000" />
+    <option name="totallyTimeSpent" value="33044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -382,7 +414,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -439,10 +471,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1490870298005" expanded="true" signature="332:801" ph="..." />
-            <marker date="1490870298005" expanded="true" signature="476:789" ph="..." />
-            <marker date="1490870298005" expanded="true" signature="1072:1335" ph="..." />
-            <marker date="1490870298005" expanded="true" signature="1465:1509" ph="..." />
+            <marker date="1490879260905" expanded="true" signature="332:801" ph="..." />
+            <marker date="1490879260905" expanded="true" signature="476:789" ph="..." />
+            <marker date="1490879260905" expanded="true" signature="1101:1364" ph="..." />
           </folding>
         </state>
       </provider>
@@ -682,49 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/mod_Inscription/modele_Inscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <marker date="1490863104836" expanded="true" signature="221:289" ph="INSERT INTO `utilisateur`... " />
-            <marker date="1490863104836" expanded="true" signature="396:471" ph="SELECT idUti... utilisateur" />
-            <marker date="1490863104836" expanded="true" signature="556:639" ph="INSERT INTO `client`... " />
-            <marker date="1490863104836" expanded="true" signature="1188:1227" ph="INSERT INTO `utilisateur`... " />
-            <marker date="1490863104836" expanded="true" signature="1188:1256" ph="INSERT INTO `utilisateur`... " />
-            <marker date="1490863104836" expanded="true" signature="1382:1457" ph="SELECT idUti... utilisateur" />
-            <marker date="1490863104836" expanded="true" signature="1563:1639" ph="INSERT INTO `entreprise`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/mod_Entreprise/modele_Entreprise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding>
-            <marker date="1490873724031" expanded="true" signature="552:620" ph="INSERT INTO `utilisateur`... " />
-            <marker date="1490873724031" expanded="true" signature="755:830" ph="SELECT idUti... utilisateur" />
-            <marker date="1490873724031" expanded="true" signature="950:1009" ph="SELECT idEnt... entreprise" />
-            <marker date="1490873724031" expanded="true" signature="1170:1295" ph="INSERT INTO `infrastructure`... " />
-            <marker date="1490873724031" expanded="true" signature="1907:1982" ph="SELECT idUti... utilisateur" />
-            <marker date="1490873724031" expanded="true" signature="2090:2149" ph="SELECT idEnt... entreprise" />
-            <marker date="1490873724031" expanded="true" signature="2298:2423" ph="INSERT INTO `infrastructure`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/modele_Connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding>
-            <marker date="1490876051344" expanded="true" signature="156:195" ph="SELECT * FRO... utilisateur" />
-            <marker date="1490876051344" expanded="true" signature="696:753" ph="SELECT categ... utilisateur" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/mod_Connexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -733,23 +721,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/vue_Connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="63" lean-forward="false" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-          <folding>
-            <marker date="1490870298005" expanded="true" signature="332:801" ph="..." />
-            <marker date="1490870298005" expanded="true" signature="476:789" ph="..." />
-            <marker date="1490870298005" expanded="true" signature="1072:1335" ph="..." />
-            <marker date="1490870298005" expanded="true" signature="1465:1509" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/controleur_Connexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Infrastructure/Accueil_Infrastructure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="103" />
           <folding />
         </state>
       </provider>
@@ -765,21 +748,113 @@
     <entry file="file://$PROJECT_DIR$/Modules/mod_Entreprise/vue_Entreprise.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
-            <marker date="1490876289381" expanded="true" signature="429:1609" ph="..." />
-            <marker date="1490876289381" expanded="true" signature="516:628" ph="..." />
-            <marker date="1490876289381" expanded="true" signature="958:1241" ph="..." />
-            <marker date="1490876289381" expanded="true" signature="1273:1556" ph="..." />
+            <marker date="1490877060891" expanded="true" signature="429:1613" ph="..." />
+            <marker date="1490877060891" expanded="true" signature="516:628" ph="..." />
+            <marker date="1490877060891" expanded="true" signature="962:1245" ph="..." />
+            <marker date="1490877060891" expanded="true" signature="1277:1560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Inscription/modele_Inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1490863104836" expanded="true" signature="221:289" ph="INSERT INTO `utilisateur`... " />
+            <marker date="1490863104836" expanded="true" signature="396:471" ph="SELECT idUti... utilisateur" />
+            <marker date="1490863104836" expanded="true" signature="556:639" ph="INSERT INTO `client`... " />
+            <marker date="1490863104836" expanded="true" signature="1188:1227" ph="INSERT INTO `utilisateur`... " />
+            <marker date="1490863104836" expanded="true" signature="1188:1256" ph="INSERT INTO `utilisateur`... " />
+            <marker date="1490863104836" expanded="true" signature="1382:1457" ph="SELECT idUti... utilisateur" />
+            <marker date="1490863104836" expanded="true" signature="1563:1639" ph="INSERT INTO `entreprise`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Infrastructure/mod_Infrastructure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" lean-forward="false" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Infrastructure/controleur_Infrastructure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/modele_Connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <marker date="1490876051344" expanded="true" signature="156:195" ph="SELECT * FRO... utilisateur" />
+            <marker date="1490876051344" expanded="true" signature="696:753" ph="SELECT categ... utilisateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Connexion/vue_Connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="43" column="71" lean-forward="false" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+          <folding>
+            <marker date="1490879260905" expanded="true" signature="332:801" ph="..." />
+            <marker date="1490879260905" expanded="true" signature="476:789" ph="..." />
+            <marker date="1490879260905" expanded="true" signature="1101:1364" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Infrastructure/vue_Infrastructure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="55" lean-forward="false" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <marker date="1490879513735" expanded="true" signature="427:573" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="252">
+          <caret line="116" column="45" lean-forward="false" selection-start-line="116" selection-start-column="45" selection-end-line="116" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Entreprise/modele_Entreprise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="64" lean-forward="false" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+          <folding>
+            <marker date="1490873724031" expanded="true" signature="552:620" ph="INSERT INTO `utilisateur`... " />
+            <marker date="1490873724031" expanded="true" signature="755:830" ph="SELECT idUti... utilisateur" />
+            <marker date="1490873724031" expanded="true" signature="950:1009" ph="SELECT idEnt... entreprise" />
+            <marker date="1490873724031" expanded="true" signature="1170:1295" ph="INSERT INTO `infrastructure`... " />
+            <marker date="1490873724031" expanded="true" signature="1907:1982" ph="SELECT idUti... utilisateur" />
+            <marker date="1490873724031" expanded="true" signature="2090:2149" ph="SELECT idEnt... entreprise" />
+            <marker date="1490873724031" expanded="true" signature="2298:2423" ph="INSERT INTO `infrastructure`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mod_Infrastructure/modele_Infrastructure.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <marker date="1490879836983" expanded="true" signature="183:250" ph="SELECT idInf... infrastructure" />
+            <marker date="1490879836983" expanded="true" signature="555:643" ph="INSERT INTO `reservation`... " />
+          </folding>
         </state>
       </provider>
     </entry>

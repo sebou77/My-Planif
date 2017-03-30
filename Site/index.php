@@ -5,7 +5,6 @@ require_once('Include/modele_generique.php');
 require_once('Include/module_generique.php');
 require_once('Include/vue_generique.php');
 $modele = new modeleGenerique();
-var_dump($_SESSION["idUtilisateur"]);
 if(isset($_GET['action'])){
     $nom_module= $_GET['action'];
 }
@@ -107,6 +106,18 @@ switch($nom_module) {
             }
         }else{
             $module->getControleur()->VueCreer();
+        }
+        $module->getControleur()->getVue()->tamponVersContenu();
+        break;
+
+    case "CreerConsultation":
+        require_once("Modules/mod_Infrastructure/mod_Infrastructure.php");
+        $module = new ModInfrastructure();
+        if(isset($_POST['nom']) && isset($_POST['temps'])){
+            echo '<script>console.log("dedans")</script>';
+            $module->getControleur()->getModele()->CreerConsultation($_POST['nom'],$_POST['temps']);
+        }else{
+            $module->getControleur()->getVue()->CreateConsultation();
         }
         $module->getControleur()->getVue()->tamponVersContenu();
         break;

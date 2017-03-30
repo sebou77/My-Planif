@@ -22,7 +22,7 @@
 							<input type="submit" value="Supprimer" onclick="getPage(\'Client\',\'Supprimer_Client\')"/>
 						</form>
 					</div>';
-				}else {
+				}else if($categorie=='entreprise') {
                     $this->titre = "Accueil Entreprise";
                     echo '
 					<h1>Personnalisation de votre emploi du temps</h1>
@@ -33,22 +33,20 @@
 					<button><a href="index.php?action=ModifierInfrastructure">Modifier</a></button>
 					<button><a href="index.php?action=SupprimerInfrastructure">Supprimer</a></button>
 					</div>';
-                }
+                }else{
+                    $this->titre = "Accueil Infrastructure";
+                    echo '
+                    <h1>Accueil Infrastructure</h1>
+                    <button><a href="index.php?action=Deconnexion">Deconnexion</a></button>
+					<h2> Menu: </h2>
+					<button>S\'abscenter</button>
+					<button>Consulter les reservations</button>
+					<button><a href="index.php?action=CreerConsultation">Créer une Consultation</a></button>
+					';
+				}
 		
 			}
-			
 
-			function afficheConnecte(){
-			echo '
-				
-				<!-- Home -->
-				<div class="8u 12u(mobile)">
-					<p> Connexion reussie </p>
-
-				</div>';
-
-
-			}
 			function getTitre(){
 				return $this->titre;			
 			}

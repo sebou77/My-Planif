@@ -20,7 +20,7 @@
 					<option value="equipement">Equipement</option>
 				</select>
 				Pseudo: <input type="text" placeholder="inutile de remplir pour un équipement" name="psd"/> 
-				Mot de passe: <input type="text" placeholder="inutile de remplir pour un équipement" name="mdp"/>
+				Mot de passe: <input type="password" placeholder="inutile de remplir pour un équipement" name="mdp"/>
 				Travaille de :<input type="time" name="Commence"/>
 				à :<input type="time" name="Termine"/>
 				Du: 
