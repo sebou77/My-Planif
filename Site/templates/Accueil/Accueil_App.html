@@ -1,16 +1,19 @@
+<div class="AccueilCentralise">
 <h1>Accueil</h1>
 <h2> Connexion: </h2>
 <form>
     <label for="">
         pseudo: <input type="text" id="pseudo"/>
     </label>
+	<br/>
     <label for="">
-        Mot de passe:<input type="text" id="mdp"/>
+        Mot de passe:<input type="text" id="mdpAccueil"/>
     </label>
-    <input type="submit" value="envoyé" onclick="SignIn()"/>
-    <div id="resultat"></div>
+	<br/>
+    <input type="submit" value="envoyer" onclick="SignIn()"/>
 </form>
-<h2>Inscription</h2>
+<h2>Inscription:</h2>
 
 <input onclick="getPage('Accueil','Inscription_Entreprise')" type="submit" value="entreprise"/>
 <input onclick="getPage('Accueil','Inscription_Client')" type="submit" value="clients"/>
+</div>
