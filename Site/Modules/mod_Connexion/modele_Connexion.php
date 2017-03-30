@@ -16,5 +16,13 @@
 					return null;
 				}
 			}
+
+			public function Retour(){
+                $conn = parent::getPDO();
+                $res=$conn->prepare("SELECT categorie FROM `utilisateur` where idUtilisateur=?");
+                $res->execute(array($_SESSION['idUtilisateur']));
+                $data = $res->fetch();
+                return $data['categorie'];
+			}
 	}
 ?>

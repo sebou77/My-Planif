@@ -28,22 +28,11 @@
 					<h1>Personnalisation de votre emploi du temps</h1>
 					<h2>Infrastructure</h2>
 					<button><a href="index.php?action=Deconnexion">Deconnexion</a></button>
-					<form action="">
-						<input type="submit" value="Creer" onclick="getPage(\'Entreprise\',\'Creation_Infrastructure\')"/>
-						<input type="submit" value="Modifier" onclick="getPage(\'Entreprise\',\'Selection_Infrastructure\')"/>
-						<input type="submit" value="Supprimer" onclick="getPage(\'Entreprise\',\'Supprimer_Infrastructure\')"/>
-					</form>
-					<h2>Prévision:</h2>
-					<form action="">
-                        Nom Entreprise: <input type="text" />
-					</form>
-					<form action="">
-					<select> 
-						<option> Option1</option>
-						<option> Option2</option>
-						<option> Option3</option>
-					</select>
-					</form>';
+					<div>
+					<button><a href="index.php?action=CreerInfrastructure">Créer</a></button>
+					<button><a href="index.php?action=ModifierInfrastructure">Modifier</a></button>
+					<button><a href="index.php?action=SupprimerInfrastructure">Supprimer</a></button>
+					</div>';
                 }
 		
 			}
